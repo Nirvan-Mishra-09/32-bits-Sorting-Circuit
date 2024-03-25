@@ -17,3 +17,8 @@ The **comparator unit** acts as the brain of the sorting circuit, responsible fo
 3. A equals to B (A_EQ_B): logic 1 if A equals B, else logic 0
 
 ![1](https://github.com/Nirvan-Mishra-09/8-Input-Sorting-Circuit-4-bit/assets/127642231/c4731566-7799-4779-b075-7bfedf6d6fbe)
+
+The **swapping unit** is a crucial component that takes the outputs of the comparator unit and, based on those signals, rearranges the two input numbers if necessary to ensure proper sorting order. It acts like a controlled switch, manipulating the data flow depending on the comparison results.
+1. A Greater Than B: When the comparator unit determines that A is greater than B (A_GT_B) is high), the swapping unit takes no action. It keeps the original order of the two inputs. In essence, it acts like a straight-through wire, passing A and B to the next stage unchanged.
+2. A Less Than B : Conversely, when the comparator unit indicates that A is less than B (A_LT_B) is high), the swapping unit actively swaps the two inputs. It essentially reverses the order of A and B before sending them to the next stage. 
+3. A Equal To B: If the comparator unit detects that A and B are equal (A_EQ_B) is high), the swapping unit also maintains the original order. 
