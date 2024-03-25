@@ -24,3 +24,5 @@ The **swapping unit** is a crucial component that takes the outputs of the compa
 3. A Equal To B: If the comparator unit detects that A and B are equal (A_EQ_B) is high), the swapping unit also maintains the original order. 
 
 The circuit utilizes a multi-stage architecture employing comparators for bit-by-bit comparisons and a swapping unit controlled by the comparator outputs to achieve the desired order.
+
+**Design**
