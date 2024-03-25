@@ -1,1 +1,1 @@
-# 8-Input-Sorting-Circuit-4-bit-
+# 8-Input-Sorting-Circuit-4-bit
