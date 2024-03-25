@@ -16,3 +16,4 @@ The **comparator unit** acts as the brain of the sorting circuit, responsible fo
 2. A less than B (A_LT_B): logic 1 if A is less than B, else logic 0.
 3. A equals to B (A_EQ_B): logic 1 if A equals B, else logic 0
 
+![1](https://github.com/Nirvan-Mishra-09/8-Input-Sorting-Circuit-4-bit/assets/127642231/c4731566-7799-4779-b075-7bfedf6d6fbe)
