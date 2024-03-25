@@ -22,3 +22,5 @@ The **swapping unit** is a crucial component that takes the outputs of the compa
 1. A Greater Than B: When the comparator unit determines that A is greater than B (A_GT_B) is high), the swapping unit takes no action. It keeps the original order of the two inputs. In essence, it acts like a straight-through wire, passing A and B to the next stage unchanged.
 2. A Less Than B : Conversely, when the comparator unit indicates that A is less than B (A_LT_B) is high), the swapping unit actively swaps the two inputs. It essentially reverses the order of A and B before sending them to the next stage. 
 3. A Equal To B: If the comparator unit detects that A and B are equal (A_EQ_B) is high), the swapping unit also maintains the original order. 
+
+The circuit utilizes a multi-stage architecture employing comparators for bit-by-bit comparisons and a swapping unit controlled by the comparator outputs to achieve the desired order.
