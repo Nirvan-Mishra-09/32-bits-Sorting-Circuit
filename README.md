@@ -9,3 +9,10 @@ The basic principle of Batcher’s Odd-Even Mergesort is a merge algorithm that 
 ![image](https://github.com/Nirvan-Mishra-09/8-Input-Sorting-Circuit-4-bit/assets/127642231/52aa2329-28de-4793-be5f-5642ffc34256)
 ![Untitled Diagram drawio](https://github.com/Nirvan-Mishra-09/8-Input-Sorting-Circuit-4-bit/assets/127642231/b81f5593-5dde-4184-a342-7a5e6c605c56)
 
+The above design  utilizes a series of sorting units at each stage. Each sorting unit is composed of two key components: a comparator and a swapping unit.
+The **comparator unit** acts as the brain of the sorting circuit, responsible for determining the relative order of two input numbers. It takes two 4-bit unsigned numbers (A and B) as inputs and produces three outputs:
+\begin{itemize}
+    \item \textbf{A greater than B} \(A\_GT\_B\): logic 1 if A is greater than B, else logic 0.
+    \item \textbf{A less than B} \(A\_LT\_B\): logic 1 if A is less than B, else logic 0.
+    \item \textbf{A equals to B }\(A\_EQ\_B\): logic 1 if A equals B, else logic 0
+\end{itemize}
