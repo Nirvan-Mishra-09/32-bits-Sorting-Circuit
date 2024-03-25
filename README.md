@@ -26,3 +26,13 @@ The **swapping unit** is a crucial component that takes the outputs of the compa
 The circuit utilizes a multi-stage architecture employing comparators for bit-by-bit comparisons and a swapping unit controlled by the comparator outputs to achieve the desired order.
 
 **Design**
+
+An 8-input (4bit) sorter circuit designed to arrange eight unsigned 4-bit numbers in descending order. The circuit operates using a bottom-up approach, where smaller building blocks are designed first and then combined to achieve the overall functionality.
+
+The core element of the sorting circuit is the sorter unit. Each sorter unit takes two 4-bit numbers (A and B) as inputs and outputs two sorted 4-bit numbers. Internally, a sorter unit comprises two crucial components:
+
+**Comparator Circuit**: This circuit performs a bit-by-bit comparison between A and B. It determines which number is greater, less than, or equal to the other, and generates corresponding signals A_GT_B, A_LT_B, and A_EQ_B.
+
+**Swapping Circuit**: Based on the comparator's outputs, the swapping circuit selectively rearranges the inputs. If A is greater than B, the swapping circuit keeps the original order. However, if A is less than B, the swapping circuit actively swaps A and B, ensuring the larger value moves forward in the sorting process.
+
+![2 drawio](https://github.com/Nirvan-Mishra-09/8-Input-Sorting-Circuit-4-bit/assets/127642231/f9e8a26f-88c4-4aa9-8b4d-a55547d5b734)
